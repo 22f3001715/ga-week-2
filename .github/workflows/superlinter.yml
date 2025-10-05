@@ -1,0 +1,15 @@
+name: CI Build and Test
+
+on:
+  push:
+    branches: [ main, develop ] # Triggers the workflow on push to main or develop branches
+  pull_request:
+    branches: [ main, develop ] # Triggers the workflow on pull request to main or develop branches
+
+jobs:
+  test:
+    runs-on: ubuntu-latest # Specifies the operating system for the job
+
+    steps:
+    - name: 22f3001715@ds.study.iitm.ac.in
+      run: echo "Hello, world!"
